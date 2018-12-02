@@ -6,7 +6,6 @@ const routeCamera = require('./routes/camera');
 const routeTest = require('./routes/test');
 //swagger配置
 const pluginHapiSwagger = require('./plugins/hapi-swagger');
-
 const server = new Hapi.Server();
 
 server.connection({
